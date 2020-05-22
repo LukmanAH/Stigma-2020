@@ -1,0 +1,89 @@
+<html>
+
+<head>
+
+<script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
+
+<script>window.jQuery || document.write('<script src="/static/js/jquery-2.1.0.min.js">\x3C/script>')</script>
+
+<script type="text/javascript" src="aksi.js"></script>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+
+
+
+
+<body>
+
+	<div class="title">OTHELLO</div>
+
+	<div id="board-holder">
+
+		<div class="player" id="player-white">
+
+			<div class="player-title">WHITE</div>
+
+			<div class="player-type">
+
+				<span data-player=0 class="human active">HUMAN</span> /
+
+				<span data-player=0 class="cpu">CPU</span>
+
+			</div>	
+			
+		</div>
+		
+		<div class="gameboard"> </div>
+
+		<div class="player" id="player-black">
+
+			<div class="player-title">BLACK</div>
+
+			<div class="player-type">
+
+				<span data-player=1 class="human active">HUMAN</span> /
+
+				<span data-player=1 class="cpu">CPU</span>
+
+			</div>	
+
+
+		</div>
+
+
+
+
+	</div>
+
+	<div id="announcer">
+
+		<textarea id="announcer-text" value="" readonly></textarea>
+
+	</div>
+
+	<div id="start-holder">
+
+		<div class="button" id="reset">
+
+			RESET
+
+		</div>
+
+		<div class="inbetween"></div>
+
+		<div class="button" id="start">
+
+			START
+
+		</div>
+
+	</div>
+
+</body>
+
+
+
+</html>
